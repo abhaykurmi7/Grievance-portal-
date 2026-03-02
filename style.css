@@ -1,0 +1,75 @@
+html {
+  scroll-behavior:smooth;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-gradient {
+    background: linear-gradient(180deg, #f0f7ff 0%, #ffffff 100%);
+}
+
+.blue-section {
+    background-color: #1a73e8;
+  margin-bottom: 0;
+}
+
+/* Buttons */
+.primary-btn {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.secondary-btn {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    color: #374151;
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cards */
+.work-card {
+    background: #eff6ff;
+    padding: 2.5rem;
+    border-radius: 1.25rem;
+    text-align: center;
+}
+
+.work-card i {
+    font-size: 2rem;
+    color: #2563eb;
+    margin-bottom: 1rem;
+}
+
+.work-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.work-card p {
+    color: #6b7280;
+}
+
+/* Mobile safety */
+@media (max-width: 640px) {
+    .primary-btn,
+    .secondary-btn {
+        width: 100%;
+    }
+}
